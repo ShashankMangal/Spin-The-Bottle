@@ -1,4 +1,4 @@
-package com.example.spinthebottle;
+package com.sharkBytesLab.spinTheBottle;
 
 import android.content.Context;
 

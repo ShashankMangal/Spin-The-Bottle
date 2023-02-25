@@ -15,4 +15,13 @@
         android:layout_centerInParent="true"
         android:onClick="spinBottle"/>
 
+    <ImageView
+        android:id="@+id/openMenu"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:background="@drawable/settings_asset" />
+
 </RelativeLayout>

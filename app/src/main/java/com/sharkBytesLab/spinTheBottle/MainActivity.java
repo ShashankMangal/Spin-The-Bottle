@@ -1,7 +1,8 @@
-package com.example.spinthebottle;
+package com.sharkBytesLab.spinTheBottle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
@@ -11,7 +12,7 @@ import android.widget.ImageView;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
-    private ImageView bottle;
+    private ImageView bottle, menu;
     private Random random = new Random();
     private int lastDir;
     private boolean spinning;
@@ -23,6 +24,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         bottle = findViewById(R.id.bottle);
+        menu = findViewById(R.id.openMenu);
+
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, MenuActivity.class));
+            }
+        });
 
     }
     public void spinBottle(View v){

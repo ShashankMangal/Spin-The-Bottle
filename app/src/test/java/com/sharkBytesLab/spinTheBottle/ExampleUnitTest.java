@@ -1,4 +1,4 @@
-package com.example.spinthebottle;
+package com.sharkBytesLab.spinTheBottle;
 
 import org.junit.Test;
 
