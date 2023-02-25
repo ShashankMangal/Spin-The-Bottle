@@ -179,7 +179,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         xmlns:maxads="http://schemas.applovin.com/android/1.0"
-        maxads:adUnitId="f3401905b00b6850"
+        maxads:adUnitId="3f210e09bec6faeb"
         android:layout_width="match_parent"
         android:layout_height="50dp">
     </com.applovin.mediation.ads.MaxAdView>
