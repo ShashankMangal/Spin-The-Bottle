@@ -10,8 +10,8 @@ android {
         applicationId "com.sharkBytesLab.spinTheBottle"
         minSdkVersion 16
         targetSdkVersion 33
-        versionCode 3
-        versionName "3.1.0"
+        versionCode 4
+        versionName "4.3.16"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
